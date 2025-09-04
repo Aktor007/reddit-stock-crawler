@@ -1,0 +1,24 @@
+# requirements.txt
+# -----------------------------------------------------------
+# Kern-Abhängigkeiten für alle vier Skripte
+# -----------------------------------------------------------
+pandas
+numpy
+matplotlib
+requests
+wordfreq
+yfinance
+praw             # Reddit-API (zieht prawcore automatisch mit)
+python-dotenv    # .env-Dateien einlesen
+tqdm             # Fortschrittsbalken
+tabulate         # hübsche Konsolen-Tabellen
+pandas_market_calendars
+
+# -----------------------------------------------------------
+# HTML-Parsing für pandas.read_html()
+# Mindestens eines dieser Pakete muss installiert sein.
+# Installiere ruhig alle drei, dann ist man auf der sicheren Seite.
+# -----------------------------------------------------------
+beautifulsoup4
+lxml
+html5lib
